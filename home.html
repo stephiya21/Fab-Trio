@@ -1,0 +1,408 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--=====meta section========-->
+    <meta name="keyword" content="gym,gym.com,popular gym in my area">
+    <meta name="author" content="">
+    <meta name="description" content="most popular gym in your area .we provides different types of fitness skills.......">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!--===========Additional CSS file============-->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/font-awesome.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="{% static 'gym.css' %}">
+
+</head>
+<body  data-spy="scroll" data-target="#spy" data-offset="100">
+<header class="header-area">
+  
+   <nav class="navbar navbar-expand-lg">
+    <div class="container">
+            <a href="index.html" class="navbar-brand logo"><span style="color:rgb(12, 12, 12)">TRIO</span> <span>GYM</span></a>
+            <button class="navbar-toggler main-toggle" type="button" data-toggle="collapse" data-target="#toggle">
+    
+                <div class="toggle-icon first" id="toggle1"></div>
+                <div class="toggle-icon second middle"></div>
+                <div class="toggle-icon third" id="toggle2"></div>
+              </button>
+             <div class="collapse navbar-collapse" id="toggle">
+             <ul class=" navbar-nav ml-auto text-center nav" id="spy">
+                <li class="nav-item active"><a class="nav-link" href="index.html" >Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#program"><span style="color:rgb(12, 12, 12)">About</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#class"><span style="color:rgb(12, 12, 12)">Classes</span></a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="#contact"><span style="color:rgb(12, 12, 12)">Contact Us</span></a></li>
+                <li class="nav-item"><a class="nav-link main-btn" href="/signup">Sign Up</a></li>
+             </ul>
+            </div>
+        </div>       
+    </nav>
+</header>
+<!--========Main Banner Area Start============-->
+<div class="main-banner">
+    <video autoplay muted loop id="bg-video">
+        <source src="images/gym-video.mp4" type="video/mp4">
+    </video>
+
+<!--==============banner content==============-->
+<div class="container">
+    <div class="text-overlay">  
+ <div class="caption">
+     <h5>Work Harder, Get Stronger</h5>
+     <h2>Easy With Our <span>Gym</span></h2>
+ </div>
+
+
+</div>
+</div>
+  <!--==============Choose program=================--> 
+  <div>
+    <div class="container" id="program">
+
+        <div class="program-header">
+        <h3>Choose <span>Program</span></h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OPL4QsYq6PTShk5IEoFJwcwqeXuIn7MfIw&usqp=CAU">
+       
+    </div>
+        <div class="program-body">
+            <div class="row">
+                
+                <div class="col-lg-6 col-md-12">
+                    <div class="row mb-5">
+                        <div class="col-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdcqzlGAJPFqYi-avSIMKG3CEeheOsd6uMw&usqp=CAU">
+                </div>
+                <div class="col-9">
+                    <h3>Basic Fitness</h3>
+                    <P>Get at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous aerobic activity a week,
+                         or an equal combination of moderate and vigorous aerobic activity.
+                         The guidelines suggest that you spread out this exercise during the course of a week.
+                    </P>
+               
+                </div>
+                </div>
+    
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="row mb-5">
+                        <div class="col-3">
+                    <img src="https://lmimirror3pvr.azureedge.net/static/media/18461/3c152e9a-731d-45db-a205-5da7abe818b1/training-load-960x540.jpg">
+                </div>
+                <div class="col-9">
+                    <h3>Advanced Muscle Course</h3>
+                    <p>Have you been training for countless years and recently reached a plateau? If so, then this is what you need to be reading.
+                        Get ready to learn all the tips and tricks of advanced bodybuilders, along with the best workout and plenty of information on diet and nutrition.
+                    </p>
+                  
+                </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+                
+            <div class="col-lg-6 col-md-12">
+                <div class="row mb-5">
+                    <div class="col-3">
+                <img src="https://thumbs.dreamstime.com/b/muscular-athletic-bodybuilder-fitness-model-posing-exercis-weights-exercises-gym-64856941.jpg">
+            </div>
+            <div class="col-9">
+                <h3>Personalized Fitness Jump Starts & Assessments</h3>
+                <p>The TRIO GYM provides personalized appointments designed to get you started on the right track when you join
+                    or provide you with guidance to reach your personal goals. whether its losing weight or to just become a healthier you.
+                    Our experienced staff is ready to assist you, every step of the way -call the TRIO GYM.
+                </p>
+               
+            </div>
+            </div>
+    
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="row mb-5">
+                    <div class="col-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UybbfWTmhDz7R1n1j0_u5iATRf0oVQTeMA&usqp=CAU">
+            </div>
+            <div class="col-9">
+                <h3>Yoga Training</h3>
+                <p>Our yoga classes combine traditional yoga concepts and techniques with Western scientifically and medically-based knowledge.
+                    yoga works toward an understanding of body awareness using breathing techniques stress reduction, relaxation and increased
+                    range of motion in all major muscle groups while enhancing strength and flexibility. 
+                </p>
+                
+            </div>
+            </div>
+        </div>
+    
+    
+     
+                
+        <div class="col-lg-6 col-md-12">
+            <div class="row mb-5">
+                <div class="col-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTko5CsxKJKjb3zt3bivJnuy4mgAJwsc6CZw&usqp=CAU">
+        </div>
+        <div class="col-9">
+            <h3>Basic Muscle Course</h3>
+            <p>An understanding of your muscles and how they work is essential for strength training.his is one in a series of regular weight training programs
+                Each program is optimized for a specific outcome including general fitness, weight loss, body shaping, and sport-specific programs.
+                
+            </p>
+            
+        </div>
+        </div>
+    
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="row mb-5">
+                <div class="col-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsN8mJ3ijHC5hpToo4xUPA2XJrazhCZwzWQ&usqp=CAU">
+        </div>
+        <div class="col-9">
+            <h3>Body Building Course</h3>
+            <p>Bodybuilding can be both a fun recreational activity and a professional career. If you're interested in bodybuilding,
+                you may seek professional opportunities that allow you to pursue your bodybuilding goals more effectively
+                Learning about positions that are well-suited to bodybuilders may help you find your ideal job.
+            </p>
+            
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <!--=============today section===============-->
+    <div class="today-bg">
+        <div class="today-text">
+            <h2 style="color:rgb(14, 13, 13)">Don't <span> Think</span> <span style="color:rgb(12, 12, 12)" >Begin</span>  <span> Today</span>!</h2>
+            <p style="color:rgb(17, 17, 17)">Each day, dozens of classes are offered for all fitness types and abilities. To see what classes are happening today, 
+                check the schedule below.</p>
+            
+        </div>
+    </div>
+    
+    <!--================Our Classes===============-->
+    <div class="container">
+        <div class="row mb-5 classes" id="class">
+            <div class="col-lg-12 text-center">
+                <h3>Our <span>Classes</span></h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1KFbU-zJYt6CAxwZM9sxOuUv8ZKeU30DvoQ&usqp=CAU">
+                <p class="mb-5">Better health leads to a better you. Our wellness center is available to all members for strength, cardio, endurance, 
+                    flexibility, functional fitness, personal training and agility training. Additional training classes, like equipment instruction and developing a proper workout routine, 
+                    are also available to help you get the most out of your workout.Classes focusing on basic sports skills, endurance, and fitness are also available for youth. </p>
+            </div>
+        </div>
+        <div class="row class-list">
+            <div class="col-lg-4 col-md-12">
+                <ul class="list-unstyled">
+                    <li class="tab1 active1"><a href="#tab1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc4m_Qi5lFxgRFErmTGz0hYkVg5TT9AA8KHg&usqp=CAU">First Training Class</a></li>
+                    <li class="tab2 active2"><a href="#tab2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjfpNTrU9CPdCDcvIqjqb2kX_TzYWjpF_OXg&usqp=CAU">Second Training Class</a></li>
+                    <li class="tab3 active3"><a href="#tab3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprOK2C-gNjDXbLhwfoMahW_T5_n5uZhoXA&usqp=CAU">Third Training Class</a></li>
+                    <li class="tab4 active4"><a href="#tab4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzNqnF4Mi7cEK4dDkckcJRiHxBHt_BaNukcw&usqp=CAU">Fourth Training Class</a></li>
+                    <div class="round-main-btn"><a href="">View All Schedules</a></div>
+                </ul>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <section class="main-class">
+                    <article id="tab1" class="opacity">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc4m_Qi5lFxgRFErmTGz0hYkVg5TT9AA8KHg&usqp=CAU">
+                
+                    <h3>First Training Class</h3>
+                    <p>A personal trainer's main job is to create a safe and effective exercise program just for you. Your program should be unique to you and your fitness goals.
+                         For example, maybe a high-intensity workout routine will help you reach your goals fast. But you have that bum shoulder and your range of motion isn't awesome.
+                         A certified personal trainer will help increase your level of fitness without causing additional harm.</p>
+    
+                    
+                </article>
+                <article id="tab2" class="opacity">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjfpNTrU9CPdCDcvIqjqb2kX_TzYWjpF_OXg&usqp=CAU">
+                
+                    <h3>Second Training Class</h3>
+                    <p>If you're bad about stretching after your typical routine, adding a second workout focused on recovery and mobility may be a good option. Your first session can incorporate your typical,
+                         heavy training, whether you strength train, do more intense cardio, or high-intensity interval work.Then later in the day, you can add a recovery workout consisting of low-intensity cardio, yoga, stretching, or foam rolling. 
+                         Remember, recovery is just as important as strenuous exercise and will help reduce the likelihood of injuries.</p>
+    
+                    
+                </article>
+                <article id="tab3" class="opacity">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprOK2C-gNjDXbLhwfoMahW_T5_n5uZhoXA&usqp=CAU">
+                
+                    <h3>Third Training Class</h3>
+                    <p>Stage 3 holds up to 10 metabolic resistance classes per day with every class completing the same workout.  
+                        For example, a class on Monday at 5:00 AM will be doing the same workout as a class on Monday at 6:30 PM.Every daily workout will be different. 
+                        We believe that providing you with a new workout each time you come in encourages greater involvement and prevents plateauing. 
+                        Consistency is key with our program, so we recommend that you come at least 2-3 times a week.</p>
+    
+                    
+                </article>
+                <article id="tab4" class="opacity">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzNqnF4Mi7cEK4dDkckcJRiHxBHt_BaNukcw&usqp=CAU">
+                
+                    <h3>Fourth Training Class</h3>
+                    <p>With the right workout routine, you can achieve a whole lot in just four weeks. This 16-workout plan is proof of that.
+                         The 16 workouts it contains are broken down by areas of the body and though the emphasis is on your chest, back and arms, no muscle goes without its turn in the spotlight over the course of each week.
+                         The plan is designed to push your muscles beyond their comfort zone so your body rebuilds them bigger and stronger</p>
+    
+                    
+                </article>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!--======================Schedule Section===================-->
+    <section class="main-schedule" id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="schedule-header">
+                        <h3 style="color:rgb(11, 11, 11)">Classes  <span>Schedule</span></h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnoGMMX7yi6F6UTJwidC7aGIi02zmZ_YCpw&usqp=CAU">
+                        <p style="color:rgb(16, 15, 15)">Your personal trainer will be able to help you become further educated on how your nutrition plays a role in your fitness journey,
+                             what exercises target which muscles, the correct exercise form and so much more. Being able to turn to a fitness professional for any questions you have rather than turning to Google will result in detailed,
+                             educated and personalised answers that will help you succeed.</p>
+                    </div>
+                </div>
+            </div>
+        
+                   
+         
+    <!--==============Expert Trainers===============-->
+    <section class="trainer-section"> 
+        <div class="container">
+          <div class="trainer-header">
+              <h3>Expert <span>Trainers</span></h3>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtNL0TC_dTvBWHdZJvUBn592JT4sx3uwtAYw&usqp=CAU">
+              <p>A fitness trainer leads, instructs, and motivates individuals or groups in exercise activities, including cardiovascular exercise 
+                (exercises for the heart and blood system), strength training, and stretching.Getting fit and staying fit takes a lot of work and motivation.
+                To keep clients coming back for more, fitness trainers must be able to keep them excited about their progress and help them focus on their goals..</p>
+          </div>
+          <div class="row">
+             <div class="col-lg-4 col-md-12 mb-5">
+                 <div class="main-card">
+                     <div class="card-img">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4pc8bIof1npZiWa_vn8MNXT8bYX-pTq60WA&usqp=CAU">
+                     </div>
+                     <div class="card-text">
+                         <h5>Strength Trainer</h5>
+                         <h3 style="color:rgb(236, 225, 225)">Breat D. Bowers</h3>
+                         
+                     </div>
+                     <div class="card-list">
+                         <ul class="list-unstyled">
+                             <li class="list-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-linkedin"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-behance"></i></a></li>
+                         </ul>
+                     </div>
+                 </div>
+                 </div>
+                 
+                <div class="col-lg-4 col-md-12 mb-5">
+                    <div class="main-card">
+                        <div class="card-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZym9qCyZ9BfxhWHJBo1to1Yo-00Gxi9Iyzw&usqp=CAU">
+                        </div>
+                        <div class="card-text">
+                            <h5>Muscle Trainer</h5>
+                            <h3 style="color:rgb(248, 244, 244)">Hector T. Daigl</h3>
+                            
+                        </div>
+                        <div class="card-list">
+                            <ul class="list-unstyled">
+                            <li class="list-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-linkedin"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                <div class="col-lg-4 col-md-12 mb-5">
+                    <div class="main-card">
+                        <div class="card-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF0SMB37Y2-eU3KXQ7T_HPk1Tct6NBWVKKIQ&usqp=CAU">
+                        </div>
+                        <div class="card-text">
+                            <h5>Power Trainer</h5>
+                            <h3 style="color:white">Paul D. Newman</h3>
+                            
+                        </div>
+                        <div class="card-list">
+                            <ul class="list-unstyled">
+                            <li class="list-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-linkedin"></i></a></li>
+                             <li class="list-item"><a href=""><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+             </div>
+        </div>
+    </section>
+    
+    <!-------------====Contact us Section=====================-->
+    <div class="container-fluid" id="contact">
+        <br><br>
+        <h3 style="color:orangered">Contact Us</h3>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 frame">
+                <div id="map">
+                    <iframe src="https://i.stack.imgur.com/hmMoU.jpg" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen width=""100px" height="100px"></iframe>
+          
+                </div>
+            </div>
+            
+            
+            <div class="card-list">
+                
+                <ul class="list-unstyled">
+              <br>  <li class="list-item"><a href="/facebook"><i class="fa fa-facebook"></i></a></li><
+                 <li class="list-item"><a href="/twitter"><i class="fa fa-twitter"></i></a></li>
+                 <li class="list-item"><a href="/linkedin"><i class="fa fa-linkedin"></i></a></li>
+                 <li class="list-item"><a href="/instagram"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+           
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!--=========Footer Section=============-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+            <p>Copyright &copy; TRIO GYM - Designed by 
+                <a href="" target="_parent">Stefswashri </a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--=============Additional JS file=================-->
+    
+    <!-- <script type="text/javascript" src="js/popper.js"></script> -->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/gym.js"></script>  
+  
+</body>
+</html>
